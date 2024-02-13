@@ -1,14 +1,5 @@
-import test from './modules/test'
+import one from './modules/one';
+import two from './modules/two';
 
-function component() {
-    const element = document.createElement('div');
-
-    element.innerHTML = 'Hello, webpack';
-
-    return element;
-}
-
-test();
-
-document.body.appendChild(component());
-
+one();
+two();
